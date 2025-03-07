@@ -1,0 +1,90 @@
+/* 全体のスタイル */
+body {
+    font-family: 'Arial', sans-serif;
+    background-color: #fdfaf5;
+    color: #6c4f3d;
+    text-align: center;
+}
+
+/* ヘッダー */
+header {
+    font-size: 24px;
+    font-weight: bold;
+    margin: 20px 0;
+}
+
+/* メインコンテンツ */
+main {
+    width: 50%;
+    margin: 0 auto;
+    text-align: left;
+}
+
+/* フォームのスタイル */
+form {
+    display: flex;
+    flex-direction: column;
+    gap: 15px;
+}
+
+/* フォームグループ */
+.form-group {
+    display: flex;
+    flex-direction: column;
+    gap: 5px;
+}
+
+/* 入力欄 */
+input, select, textarea {
+    width: 100%;
+    padding: 10px;
+    border: 1px solid #d3c4b6;
+    border-radius: 5px;
+    font-size: 14px;
+    background-color: #fcf9f5;
+}
+
+/* 複数の入力欄を並べる */
+.input-group {
+    display: flex;
+    gap: 10px;
+}
+
+.tel-group {
+    display: flex;
+    align-items: center;
+    gap: 5px;
+}
+
+/* ラジオボタン */
+.radio-group {
+    display: flex;
+    gap: 10px;
+}
+
+/* テキストエリア */
+textarea {
+    height: 100px;
+    resize: none;
+}
+
+/* 必須マーク */
+.required {
+    color: red;
+}
+
+/* ボタン */
+.submit-button {
+    background-color: #8c7250;
+    color: white;
+    padding: 12px;
+    font-size: 16px;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+    margin-top: 10px;
+}
+
+.submit-button:hover {
+    background-color: #7b6145;
+}

@@ -1,0 +1,156 @@
+.todo__alert--success {
+    /*margin: 0 auto; いらない*/
+    padding: 10px 30px;
+    background: #d1e7dd;
+    color: #0f5132;
+    border-color: #badbcc;
+}
+
+.todo__alert--danger {
+    padding: 10px 30px;
+    background: #f8d7da;
+    color: #842029;
+    border-color: #f8d7da;
+}
+
+.todo__alert--danger ul {
+    margin: 0;
+}
+
+
+.todo__content {
+    margin: 0 auto; /*margin 30 auto*/
+    padding: 30px 15px;
+    max-width: 1230px;
+}
+
+.section__title {
+    margin: 0 auto;
+    width: 70%;
+}
+
+.create-form, .search-form {
+    display: flex;
+    justify-content: space-between;
+    margin: 0 auto;
+    margin-bottom: 15px;
+    width: 70%;
+    text-align: center;
+}
+
+.create-form__item, .search-form__item {
+    display: flex;
+    width: 70%;
+}
+
+.create-form__item-input, .search-form__item-input {
+    margin-right: 10px;
+    padding: 10px;
+    width: 70%;
+    height: 40px;
+    border: 1px solid #ddd;
+    border-radius: 3px;
+}
+
+.create-form__item-select, .search-form__item-select {
+    padding: 10px;
+    width: 30%;
+    height: 40px;
+    border: 1px solid #ddd;
+    border-radius: 3px;
+    appearance: none;
+}
+
+.create-form__button, .search-form__button {
+    width: 20%;
+}
+
+.create-form__button-submit,.search-form__button-submit {
+    padding: 10px;
+    width: 100%;
+    height: 40px;
+    background: #000;
+    color: #fff;
+    border-radius: 3px;
+    border: none;
+    cursor: pointer;
+}
+
+.todo-table {
+    margin: 30px auto;/*上との余白を空ける*/
+    width: 70%;
+}
+
+.todo-table__inner {
+    width: 100%;
+}
+
+.todo-table__row {
+    border-bottom: 1px solid #ddd;
+}
+
+.todo-table__header {
+    padding: 12px;
+    width: 20%;/*?*/
+    text-align: left;
+    font-weight: bold;
+}
+
+.todo-table__header-span {
+    margin-right: 40%;
+}
+
+.todo-table__item:first-of-type {
+    padding: 12px;
+    width: 90%;/*削除ボタンのみ右に追いやられる*/
+}
+
+.update-form {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;/*上下レベルで中央にする*/
+}
+
+.update-form__item {
+    width: 80%;
+    line-height: 50%; /*?*/
+}
+
+.update-form__item-input {
+    width: 100%;
+    border: none;
+    outline: none;/*カーソルを当てたときとかに、浮かび上がる枠の線*/
+}
+
+.update-form__item-p {
+    text-align: left;
+    font-size: 13px;
+}
+
+.update-form__button {
+    width: 50px; /*下でwidth100%にするなら、ここで設定しておく*/
+}
+
+.update-form__button-submit {
+    padding: 5px;
+    width: 100%;
+    border: none;
+    background: #0000ff;
+    color: #fff;
+    border-radius: 3px;
+    cursor: pointer;
+}
+
+.delete-form__button {
+    width: 50px;
+}
+
+.delete-form__button-submit {
+    padding: 5px;
+    width: 100%;
+    border: none;
+    background: #ff0000;
+    color: #fff;
+    border-radius: 3px;
+    cursor: pointer;
+}
